@@ -1,0 +1,14 @@
+Internet Connection Reboot
+
+Written in Kotlin.
+
+Checks the Internet access and restart the computer at the specified time if it fails.
+
+Exemplary startup
+java -jar build/libs/InternetConnectionReboot-1.0-SNAPSHOT.jar [HOST] [PORT] [SLEEP1] [SLEEP2]
+
+SLEEP1
+Internet access check for the first time.
+
+SLEEP2
+The second access check after a certain time as the first will fail.
